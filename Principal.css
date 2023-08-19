@@ -1,0 +1,170 @@
+/* Agregacion del color de fondo*/
+html{
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Cinzel', serif;
+}
+/*Estableciendo estructura de los recuadros*/
+main{
+    padding-top: 0.4em;
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    padding-bottom: 14em;
+    margin: 0 0 0 5em;
+    border-radius: 17px;
+}
+.lista_de_barra{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+/*Personalizando los campos para ingresar */    
+}
+.img_barra{
+    width: 5em;
+    height: 5em;
+
+
+}
+.container_barra{
+    margin: auto;
+}
+li{
+    margin: 0 13em 0 0
+}
+.titulos{
+    text-align: center;
+}
+.listas{
+    display: flex;
+    justify-content: center;
+}
+th{
+    width: 15em;
+    border: 1px solid black;
+    padding: 0;
+}
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+/*Agregando color a las funciones del Baner al ser seleccionada*/
+.select{
+    box-shadow: 0px 0px 4px 4px #29d0fd;
+}
+.container_insertar_usuarios{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 2em 0em;
+}
+/*Personalizando las tablas ingresadas */
+.insertar_usuarios{
+    font-weight: 700;
+}
+.label_seleccionar{
+    margin-right: 4em;
+}
+.container_boton_insertar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+/*Personalizacion de botones de eliminar y editar*/
+.boton_insertar_usuarios{
+    width: 9em;
+    height: 2em;
+    background-color:#061029;
+    color: white;
+    font-size: 1em;
+    box-shadow: 0;
+    border-width: 0;
+}
+.boton_insertar_usuarios:hover{
+    background-color: #0E2761;
+}
+/*Personalizando la ultima funcion del baner que es acerca de la informacion del sistema de ventas*/
+.container_nosotros{
+    width: 100%;
+    height: 5em;
+    background-color: red;
+}
+.eliminar{
+    display:none
+}
+.div_nosotros{
+    display: flex;
+    height: 20em;
+    width: 100%;
+    background-color: white;
+}
+
+.div_imagen_nosotros {
+    height: 18em;
+    width: 45%;
+}
+.div_descripcion{
+    height: 10em;
+    width: 45%;
+}
+.imagen_nosotros{
+    height: 100%;
+    width: 100%;
+}
+.bodeguero_barra{
+    justify-content: flex-start;
+}
+.bodeguero_bodega{
+    margin: 0 0 0 8em
+}
+/*Personalizacion del boton para salir de la sesion */
+
+.boton_regresar{
+    height: 3.5em;
+    width: 3.5em;
+    background-color: white;
+    border-radius: 25px;
+
+}
+.a_regresar{
+    height: 100%;
+    width: 100%;
+}
+.img_regresar{
+    height: 65%;
+    width: 65%;
+    margin: 10px 0 0 9px;
+}
+.editar{
+    width: 5em;
+    display: flex;
+    border: 0 solid white;
+}
+.img_editar{
+    width: 25px;
+    height: 25px;
+    margin: 0 14px 0 0
+}
+.img_editar:hover{
+    box-shadow: 0px 0px 4px 4px #29d0fd;
+
+}
+h2{
+    color: red;
+    font-size: 18px;
+    font-style: italic;
+}
+p{
+    font-weight: 300;
+    text-transform: none;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto_nosotros{
+    font-weight: 800;
+    color: black;
+    font-size: 25px;
+}

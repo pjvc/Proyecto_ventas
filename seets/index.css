@@ -1,0 +1,123 @@
+html{
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.body{
+    margin: 0 ;
+}
+div.contenido{
+    height: 30em;
+    width: 50%;
+}
+div.img{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.img_logo{
+    height: 100%;
+    width: 100%;
+}
+.container-img-principal{
+    width: 70%;
+    height: 80%;
+}
+.banner{
+    width: 100%;
+    height: 5em;
+    margin: 0 0 1em 0 ;
+}
+.container_registrarse{
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 0 0 ;
+}
+.container{
+    display: flex;
+    width: 85%;
+    margin: 0 0 0 5em;
+    background-color: white;
+    border-radius: 17px;
+}
+
+div.formulario{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    height: 90%;
+    width: 80%;
+}
+h2{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0.6em;
+    font-size: 3em;
+    font-family: 'Cinzel', serif;
+    font-family: 'Ramabhadra', sans-serif;
+    font-weight: 300;
+}
+.contenido_form{
+    font-size: 21px;
+
+    border-bottom: 1px solid gray;
+    padding-bottom: 1.5em;
+}
+.usuario{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 2em 0; 
+
+}
+.usuario_label{
+    display: flex;
+    flex-direction: column;
+}
+#usuario{
+    height: 20px;
+    width: 15em;
+}
+
+.button{
+    font-size: 1.2em;
+    width: 10em;
+    height: 1.6em;
+    border: 1px solid black;
+    background-color:  #0e2433;
+    color: white;
+    border-radius: 5px;
+}
+.button:hover{
+    border: snow 1px solid;
+}
+.container_button{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 1.2em;
+}
+div.registro:hover{
+    color: blue;
+}
+.container_registrar{
+    display: flex;
+    justify-content: center;
+}
+.contenido_registrar{
+    width: 50%;
+}
+div.seleccion{
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+}
+
+#referrer{
+    margin-top: 0.6em;
+}
+.input_contraseña{
+    width: 15em;
+    height: 20px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Creacion de la cabecera agregacion de los links necesarios para anclar con las paginas css, titulo 
+    y fuentes que se va a utilizar-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./seets/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Ramabhadra&display=swap" rel="stylesheet">
+</head>
+    <!--Cuerpo de la pagina de inicio de sesion-->
+<body>
+    <main>
+        <!--Creacion de los contenedores de la image e ingresar campos de usuario y -->
+        <div class="container-banner">
+            <div class="banner">
+                
+            </div>
+        </div>
+        <div class="container">
+             <!--Imagen de inicio de sesion -->
+            <div class="contenido img">
+                <div class="container-img-principal">
+                    <img src="./seets/img/loginimg.jpg" alt="100" class="img_logo"></div>
+            </div>
+            <!--Cotenedor para ingresar con el usuario y contraseña -->
+            <div class="contenido formulario">
+                <form class="form" action="./login.html" id="signup" method="POST">
+                    <h2>Iniciar Sesion</h2>
+                    <div class="usuario">
+                        <div class="contenido_form">
+                            <label for="usuario" class="usuario_label">Usuario: 
+                                <input type="text" name="" id="usuario">
+                            </label>
+                        </div>    
+                    </div>
+                    <div class="usuario">
+                        <div class="contenido_form">
+                            <label for="usuario" class="usuario_label">Contraseña: 
+                                <input type="password" name="" id="password" class="input_contraseña"></label>
+                        </div>    
+                    </div>
+                    <!--Boton para ingresar al sistema-->
+                    <div class="container_button">
+                        <button class="button" type="submit">Ingresar</button>
+                    </div>
+                    <div class="container_registrarse">
+                        <div class="registro">
+                            Registrarse aqui
+                        </div>
+                    </div>
+                    
+                    
+                </form>
+                
+            </div>
+        </div>
+    </main>
+    <!---Enlace al archivo de javascript-->
+    <script type="module" src="./javascript/index.js"></script>
+</body>
+</html>

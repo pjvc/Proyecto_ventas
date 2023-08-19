@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Cabecera donde se ubican los links para conectar con la hojas de estilo, asi como las fuentes de letras usadas
+    y el titulo de la pagina-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+    <link rel="stylesheet" href="..//Principal.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Boton para regresar al inicio de sesion-->
+    <div class="boton_regresar">
+        <a href="..//index.html" class="a_regresar">
+            <img src="..//seets/img/flecha-izquierda.png" class="img_regresar"alt="100">
+        </a>
+    </div>
+    <main>
+        <!--Titulo de bienvenida-->
+        <div class="titulo">
+            <h1 class="titulos">Usted ingreso como administrador</h1>
+        </div>
+        <!--Barra donde el administrador puede realizar sus funciones -->
+        <div class="container_barra">
+            <ul class="lista_de_barra">
+                <li id="crear_usuarios">
+                    <img src="..//seets/img/usuario.png" alt="" class="img_barra select" id="seleccionar_usuarios" >
+                </li>
+                <li id="compradores">
+                    <img src="..//seets/img/ventas.png" alt="100" class="img_barra" id="seleccionar_ventas">
+                </li>
+                <li id="Bodega">
+                    <img src="..//seets/img/Bodega.png" alt="" class="img_barra" id="seleccionar_bodega">
+                </li>
+                <li id="Nosotros">
+                    <img src="..//seets/img/Nosotros.png" alt="" class="img_barra" id="seleccionar_nosotros">
+                </li>
+            </ul>
+        </div>
+        <!--Campos  para ingresar los usuarios, Usuario, Contraseña y Rol  -->
+        <div class="container_insertar_usuarios">    
+            <div class="insertar_usuarios">
+                <label for="" class="label_seleccionar">Ingrese el usuario:
+                    <input type="text" id="ingresar_usuario">
+                </label>
+                <label for="" class="label_seleccionar">Ingrese la contraseña:
+                    <input type="text" id="ingresar_contraseña">
+                </label>
+                <label for="" class="label_seleccionar">Seleccione su rol:
+                    <select name="" id="seleccionar_rol" class="seleccionar_rol">
+                        <option value="" >Seleccionar uno</option>
+                        <option value="Vendedor" >Vendedor</option>
+                        <option value="Bodeguero" >Bodeguero</option>
+                    </select>
+                </label>
+            </div>          
+        </div>
+        <!--Boton de ingresar a los usuarios-->
+        <div class="container_boton_insertar">
+            <button class="boton_insertar_usuarios">
+                        Insertar
+            </button>
+        </div>
+    </main>
+    <!--Etiqueta para enlazar con la pagina de javascript-->
+    <script src="..//javascript/apartados.js"></script>    
+</body>
+</html>

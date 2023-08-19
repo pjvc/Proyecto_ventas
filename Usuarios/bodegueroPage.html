@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodega</title>
+    <link rel="stylesheet" href="../Principal.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="boton_regresar">
+        <a href="..//index.html" class="a_regresar">
+            <img src="..//seets/img/flecha-izquierda.png" class="img_regresar"alt="100">
+        </a>
+    </div>
+    <main>
+        <div class="titulo">
+            <h1 class="titulos">Usted ingreso como Bodeguero</h1>
+        </div>
+        <div class="container_barra">
+            <ul class="lista_de_barra bodeguero_barra">
+                <li id="Bodega" class="bodeguero_bodega">
+                    <img src="..//seets/img/Bodega.png" alt="" class="img_barra select" id="seleccionar_bodega">
+                </li>
+            </ul>
+        </div>
+        <div class="container_insertar_usuarios">
+            <div class="insertar_usuarios">
+                <label for="" class="label_seleccionar">Producto: 
+                    <input type="text" id="bodega_producto">
+                </label>
+                <label for="" class="label_seleccionar">Precio: 
+                    <input type="text" id="bodega_precio">
+                </label>
+                <label for="" class="label_seleccionar"> Cantidad:
+                    <input type="text" id="bodega_cantidad">
+                </label>
+            </div>
+        </div>
+        <div class="container_boton_insertar">
+            <button class="boton_insertar_usuarios " >Insertar producto</button>
+        </div>
+        <div class="listas">
+            <table id="tabla_bodega">
+                <tr>
+                    <th class="editar"></th>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                </tr>
+                
+            </table>
+        </div>
+    </main>
+    <script src="..//bodegueroPage.js"></script>   
+</body>
+</html>
